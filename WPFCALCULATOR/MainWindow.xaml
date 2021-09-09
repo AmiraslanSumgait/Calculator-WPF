@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPFCALCULATOR"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="540" Width="620">
     <Grid Background="Black">
         <Grid.RowDefinitions>
             <RowDefinition Height="4*"></RowDefinition>
@@ -24,34 +24,34 @@
                 </DockPanel>
             </Button>
             <Label Foreground="White" FontSize="32" Width="150" Height="55" Content="Standart" Canvas.Left="35" Canvas.Top="-5"/>
-            <Label Foreground="White" FontSize="40" Width="150" Height="55" Content="0" Canvas.Left="562" Canvas.Top="80" />
+            <TextBox TextAlignment="Right"  Name="resultTextBlock" BorderThickness="0" Background="#262626" Foreground="White" FontSize="40" Width="567" Height="55" Text="0" Canvas.Left="35" Canvas.Top="94" />
             <Image Source="Images/History.png" Canvas.Left="562" Canvas.Top="10" Height="40"/>
         </Canvas>
         <WrapPanel Grid.Row="1" >
-            <Button  Background="#0d0d0d" Foreground="White" Content="%" Width="150" Height="50"  FontSize="25"></Button>
-            <Button  Background="#0d0d0d" Foreground="White" Content="CE" Width="150" Height="50"  FontSize="25"></Button>
-            <Button  Background="#0d0d0d" Foreground="White" Content="C" Width="150" Height="50"  FontSize="25"></Button>
-            <Button  Background="#0d0d0d" Foreground="White" Content="⌫" Width="150" Height="50"  FontSize="25"></Button>
+            <Button  Background="#0d0d0d" Foreground="White" Name="btnPercentage" Click="Operation" Content="%" Width="150" Height="50"  FontSize="25"></Button>
+            <Button  Background="#0d0d0d" Foreground="White" Content="CE" Click="CeClicked" Width="150" Height="50"  FontSize="25"></Button>
+            <Button  Background="#0d0d0d" Foreground="White" Content="C" Click="Clicked" Width="150" Height="50"  FontSize="25"></Button>
+            <Button  Background="#0d0d0d" Foreground="White" Content="⌫" Name="btnDeleteOne" Click="btnDeleteOne_Click" Width="150" Height="50"  FontSize="25"></Button>
             <Button  Background="#0d0d0d" Foreground="White" Content="²/x" Width="150" Height="50"  FontSize="25"></Button>
-            <Button  Background="#0d0d0d" Foreground="White" Content="x²" Width="150" Height="50"  FontSize="25"></Button>
-            <Button  Background="#0d0d0d" Foreground="White" Content="∛х" Width="150" Height="50"  FontSize="25"></Button>
-            <Button  Background="#0d0d0d" Foreground="White" Content="÷" Width="150" Height="50"  FontSize="25"></Button>
-            <Button  Background="Black" Foreground="White" Content="7" Width="150" Height="50"  FontSize="25"></Button>
-            <Button  Background="Black" Foreground="White" Content="8" Width="150" Height="50"  FontSize="25"></Button>
-            <Button  Background="Black" Foreground="White" Content="9" Width="150" Height="50"  FontSize="25"></Button>
-            <Button  Background="#0d0d0d" Foreground="White" Content="x" Width="150" Height="50"  FontSize="25"></Button>
-            <Button  Background="Black" Foreground="White" Content="4" Width="150" Height="50"  FontSize="25"></Button>
-            <Button  Background="Black" Foreground="White" Content="5" Width="150" Height="50"  FontSize="25"></Button>
-            <Button  Background="Black" Foreground="White" Content="6" Width="150" Height="50"  FontSize="25"></Button>
-            <Button  Background="#0d0d0d" Foreground="White" Content="-" Width="150" Height="50"  FontSize="25"></Button>
-            <Button  Background="Black" Foreground="White" Content="1" Width="150" Height="50"  FontSize="25"></Button>
-            <Button  Background="Black" Foreground="White" Content="2" Width="150" Height="50"  FontSize="25"></Button>
-            <Button  Background="Black" Foreground="White" Content="3" Width="150" Height="50"  FontSize="25"></Button>
-            <Button  Background="#0d0d0d" Foreground="White" Content="+" Width="150" Height="50"  FontSize="25"></Button>
-            <Button  Background="Black" Foreground="White" Content="+/-" Width="150" Height="50"  FontSize="25"></Button>
-            <Button  Background="Black" Foreground="White" Content="0" Width="150" Height="50"  FontSize="25"></Button>
-            <Button  Background="Black" Foreground="White" Content="." Width="150" Height="50"  FontSize="25"></Button>
-            <Button  Background="DodgerBlue" Foreground="White" Content="=" Width="150" Height="50"  FontSize="25"></Button>
+            <Button  Background="#0d0d0d" Foreground="White" Content="x²" Name="Square" Click="Square_Click" Width="150" Height="50"  FontSize="25"></Button>
+            <Button  Background="#0d0d0d" Foreground="White" Content="∛х" Name="Sqrt" Click="Sqrt_Click" Width="150" Height="50"  FontSize="25"></Button>
+            <Button  Background="#0d0d0d" Foreground="White" Content="/" Click="Operation" Width="150" Height="50"  FontSize="25"></Button>
+            <Button  Background="Black" Foreground="White" Content="7" Click="InsertNumber" Width="150"    Height="50"  FontSize="25"></Button>
+            <Button  Background="Black" Foreground="White" Content="8" Click="InsertNumber" Width="150" Height="50"  FontSize="25"></Button>
+            <Button  Background="Black" Foreground="White" Content="9" Click="InsertNumber" Width="150" Height="50"  FontSize="25"></Button>
+            <Button  Background="#0d0d0d" Foreground="White" Content="*" Click="Operation" Width="150" Height="50"  FontSize="25"></Button>
+            <Button  Background="Black" Foreground="White" Content="4" Click="InsertNumber" Width="150" Height="50"  FontSize="25"></Button>
+            <Button  Background="Black" Foreground="White" Content="5" Click="InsertNumber" Width="150" Height="50"  FontSize="25"></Button>
+            <Button  Background="Black" Foreground="White" Content="6" Click="InsertNumber" Width="150" Height="50"  FontSize="25"></Button>
+            <Button  Background="#0d0d0d" Foreground="White" Content="-" Click="Operation" Width="150" Height="50"  FontSize="25"></Button>
+            <Button  Background="Black" Foreground="White" Content="1" Click="InsertNumber" Width="150" Height="50"  FontSize="25"></Button>
+            <Button  Background="Black" Foreground="White" Content="2" Click="InsertNumber" Width="150" Height="50"  FontSize="25"></Button>
+            <Button  Background="Black" Foreground="White" Content="3" Click="InsertNumber" Width="150" Height="50"  FontSize="25"></Button>
+            <Button  Background="#0d0d0d" Foreground="White" Content="+" Click="Operation" Width="150" Height="50"  FontSize="25"></Button>
+            <Button  Background="Black" Foreground="White" Name="btnPlusMinus" Click="btnPlusMinus_Click" Content="+/-" Width="150" Height="50"  FontSize="25"></Button>
+            <Button  Background="Black" Foreground="White" Content="0" Click="InsertNumber" Width="150" Height="50"  FontSize="25"></Button>
+            <Button  Background="Black" Foreground="White" Content="." Click="InsertDot" Width="150" Height="50"  FontSize="25"></Button>
+            <Button  Background="DodgerBlue" Foreground="White" Content="=" Click="Operation" Width="150" Height="50"  FontSize="25"></Button>
         </WrapPanel>
     </Grid>
 </Window>

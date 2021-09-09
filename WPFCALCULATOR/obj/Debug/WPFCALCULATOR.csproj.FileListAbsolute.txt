@@ -1,0 +1,15 @@
+C:\Users\Amiraslan\source\repos\WPFCALCULATOR\WPFCALCULATOR\bin\Debug\WPFCALCULATOR.exe.config
+C:\Users\Amiraslan\source\repos\WPFCALCULATOR\WPFCALCULATOR\bin\Debug\WPFCALCULATOR.exe
+C:\Users\Amiraslan\source\repos\WPFCALCULATOR\WPFCALCULATOR\bin\Debug\WPFCALCULATOR.pdb
+C:\Users\Amiraslan\source\repos\WPFCALCULATOR\WPFCALCULATOR\obj\Debug\WPFCALCULATOR.csproj.AssemblyReference.cache
+C:\Users\Amiraslan\source\repos\WPFCALCULATOR\WPFCALCULATOR\obj\Debug\MainWindow.g.cs
+C:\Users\Amiraslan\source\repos\WPFCALCULATOR\WPFCALCULATOR\obj\Debug\App.g.cs
+C:\Users\Amiraslan\source\repos\WPFCALCULATOR\WPFCALCULATOR\obj\Debug\WPFCALCULATOR_MarkupCompile.cache
+C:\Users\Amiraslan\source\repos\WPFCALCULATOR\WPFCALCULATOR\obj\Debug\WPFCALCULATOR_MarkupCompile.lref
+C:\Users\Amiraslan\source\repos\WPFCALCULATOR\WPFCALCULATOR\obj\Debug\MainWindow.baml
+C:\Users\Amiraslan\source\repos\WPFCALCULATOR\WPFCALCULATOR\obj\Debug\WPFCALCULATOR.g.resources
+C:\Users\Amiraslan\source\repos\WPFCALCULATOR\WPFCALCULATOR\obj\Debug\WPFCALCULATOR.Properties.Resources.resources
+C:\Users\Amiraslan\source\repos\WPFCALCULATOR\WPFCALCULATOR\obj\Debug\WPFCALCULATOR.csproj.GenerateResource.cache
+C:\Users\Amiraslan\source\repos\WPFCALCULATOR\WPFCALCULATOR\obj\Debug\WPFCALCULATOR.csproj.CoreCompileInputs.cache
+C:\Users\Amiraslan\source\repos\WPFCALCULATOR\WPFCALCULATOR\obj\Debug\WPFCALCULATOR.exe
+C:\Users\Amiraslan\source\repos\WPFCALCULATOR\WPFCALCULATOR\obj\Debug\WPFCALCULATOR.pdb
