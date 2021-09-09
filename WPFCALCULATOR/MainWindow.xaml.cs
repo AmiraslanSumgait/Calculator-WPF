@@ -154,10 +154,5 @@ namespace WPFCALCULATOR
             }
             
         }
-
-        private void btnPercentage_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
     }
 }
