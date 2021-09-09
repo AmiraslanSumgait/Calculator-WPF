@@ -32,9 +32,9 @@
             <Button  Background="#0d0d0d" Foreground="White" Content="CE" Click="CeClicked" Width="150" Height="50"  FontSize="25"></Button>
             <Button  Background="#0d0d0d" Foreground="White" Content="C" Click="Clicked" Width="150" Height="50"  FontSize="25"></Button>
             <Button  Background="#0d0d0d" Foreground="White" Content="⌫" Name="btnDeleteOne" Click="btnDeleteOne_Click" Width="150" Height="50"  FontSize="25"></Button>
-            <Button  Background="#0d0d0d" Foreground="White" Content="²/x" Width="150" Height="50"  FontSize="25"></Button>
+            <Button  Background="#0d0d0d" Foreground="White"  Content="¹/x" Width="150" Height="50"  FontSize="25" Click="Button_Click"></Button>
             <Button  Background="#0d0d0d" Foreground="White" Content="x²" Name="Square" Click="Square_Click" Width="150" Height="50"  FontSize="25"></Button>
-            <Button  Background="#0d0d0d" Foreground="White" Content="∛х" Name="Sqrt" Click="Sqrt_Click" Width="150" Height="50"  FontSize="25"></Button>
+            <Button  Background="#0d0d0d" Foreground="White" Content="√х" Name="Sqrt" Click="Sqrt_Click" Width="150" Height="50"  FontSize="25"></Button>
             <Button  Background="#0d0d0d" Foreground="White" Content="/" Click="Operation" Width="150" Height="50"  FontSize="25"></Button>
             <Button  Background="Black" Foreground="White" Content="7" Click="InsertNumber" Width="150"    Height="50"  FontSize="25"></Button>
             <Button  Background="Black" Foreground="White" Content="8" Click="InsertNumber" Width="150" Height="50"  FontSize="25"></Button>

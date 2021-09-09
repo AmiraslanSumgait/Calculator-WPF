@@ -152,7 +152,11 @@ namespace WPFCALCULATOR
             {
                 resultTextBlock.Text = "-" + resultTextBlock.Text;
             }
-            
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            resultTextBlock.Text = (1 / double.Parse(resultTextBlock.Text)).ToString();
         }
     }
 }
