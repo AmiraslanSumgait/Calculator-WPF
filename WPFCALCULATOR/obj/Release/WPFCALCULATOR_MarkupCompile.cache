@@ -4,11 +4,11 @@
 winexe
 C#
 .cs
-C:\Users\Amiraslan\Source\Repos\Calculator-WPF\WPFCALCULATOR\obj\Debug\
+C:\Users\Amiraslan\Source\Repos\Calculator-WPF\WPFCALCULATOR\obj\Release\
 WPFCALCULATOR
 none
 false
-DEBUG;TRACE
+TRACE
 C:\Users\Amiraslan\Source\Repos\Calculator-WPF\WPFCALCULATOR\App.xaml
 11151548125
 
@@ -16,5 +16,5 @@ C:\Users\Amiraslan\Source\Repos\Calculator-WPF\WPFCALCULATOR\App.xaml
 13-1505183044
 MainWindow.xaml;
 
-False
+True
 
